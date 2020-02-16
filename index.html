@@ -15,14 +15,15 @@
 	</head>
 	<body>
 		<script src="js/three.js"></script>
-		<script src="js/three.module.js"></script>
 
 		<div id="info">
 			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> webgl - simple text from json fonts
 		</div>
 
 		<script type="module">
-			import { OrbitControls } from './jsm/OrbitControls.js';
+
+			import * as THREE from '/js/three.module.js'
+			import { OrbitControls } from '/jsm/OrbitControls.js';
 			var camera, scene, renderer;
 
 			init();
