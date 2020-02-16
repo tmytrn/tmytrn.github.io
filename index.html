@@ -42,10 +42,12 @@
 
 					var xMid, text;
 
-					var color = 0x006699;
+					var color = E0A1DF;
 
-					var matDark = new THREE.LineBasicMaterial( {
+					var matDark = new THREE.MeshBasicMaterial( {
 						color: color,
+						transparent: true,
+						opacity: 0.4,
 						side: THREE.DoubleSide
 					} );
 
@@ -58,7 +60,7 @@
 
 					var message = "   TOMMYS\nREALM";
 
-					var shapes = font.generateShapes( message, 200 );
+					var shapes = font.generateShapes( message, 150 );
 
 					var geometry = new THREE.ShapeBufferGeometry( shapes );
 
