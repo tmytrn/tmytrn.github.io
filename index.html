@@ -16,10 +16,6 @@
 	<body>
 		<script src="js/three.js"></script>
 
-		<div id="info">
-			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> webgl - simple text from json fonts
-		</div>
-
 		<script type="module">
 
 			import * as THREE from './js/three.module.js';
@@ -75,27 +71,6 @@
 					text = new THREE.Mesh( geometry, matLite );
 					text.position.z = - 150;
 					scene.add( text );
-
-					// make line shape ( N.B. edge view remains visible )
-
-					var holeShapes = [];
-
-					for ( var i = 0; i < shapes.length; i ++ ) {
-
-						var shape = shapes[ i ];
-
-						if ( shape.holes && shape.holes.length > 0 ) {
-
-							for ( var j = 0; j < shape.holes.length; j ++ ) {
-
-								var hole = shape.holes[ j ];
-								holeShapes.push( hole );
-
-							}
-
-						}
-
-					}
 
 					shapes.push.apply( shapes, holeShapes );
 
