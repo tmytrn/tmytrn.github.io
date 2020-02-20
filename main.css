@@ -1,0 +1,35 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+header{
+	position: fixed;
+	width:100%;
+}
+body { margin: 0; height:100%}
+.container { 
+  display: flex;
+  width: 100vw;
+	height: 100vh;
+	
+}
+a {
+	font-family: 'Rubik', sans-serif;
+}
+h1 {
+	font-family: 'Rubik', black;
+	white-space: nowrap;
+}
+img {
+	width:15rem;
+}
+#editor {
+  font-family: monospace;
+  padding: .5em;
+  background: #444;
+  color: white;
+}
+canvas { 
+	width: 100%;
+	height:100%;
+}
