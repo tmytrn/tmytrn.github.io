@@ -14,14 +14,8 @@
   <body>
     <header>
       <nav class="dt w-100 pa3 ph5-ns tracked">
-          <h1 >WELCOME TO</h1>
+          <h1 >Tommy Tran</h1>
         <div class="dtc v-mid w-75 tr">
-          <a
-            class="link dim dark-gray f6 f5-ns dib mr3"
-            href="#"
-            title="WORK"
-            >WORK</a
-          >
           <a
             class="link dim dark-gray f6 f5-ns dib mr3"
             href="/about.html"
@@ -32,102 +26,6 @@
       </nav>
     </header>
     <div class="container">
-      <canvas></canvas>
     </div>
-    <script src="js/three.js"></script>
-
-    <script type="module">
-      import * as THREE from "./js/three.module.js";
-      import { OrbitControls } from "./jsm/OrbitControls.js";
-      var camera, scene, renderer;
-
-      renderer = new THREE.WebGLRenderer({
-        canvas: document.querySelector("canvas"),
-        antialias: true
-      });
-      camera = new THREE.PerspectiveCamera(
-        45,
-        window.innerWidth / window.innerHeight,
-        1,
-        10000
-      );
-      camera.position.set(0, -400, 600);
-
-      scene = new THREE.Scene();
-      scene.background = new THREE.Color(0xffffff);
-
-      var loader = new THREE.FontLoader();
-      loader.load("fonts/helvetiker_bold.typeface.json", function(font) {
-        var xMid, text;
-
-        var color = 0xe0a1df;
-
-        var material = new THREE.MeshNormalMaterial({});
-
-        var geometry = new THREE.TextGeometry("TOMMYS\n REALM", {
-          font: font,
-          size: 65,
-          height: 50,
-          curveSegments: 12,
-          bevelEnabled: true,
-          bevelThickness: 10,
-          bevelSize: 2,
-          bevelOffset: 0,
-          bevelSegments: 3
-        });
-
-        geometry.computeBoundingBox();
-
-        xMid = -0.5 * (geometry.boundingBox.max.x - geometry.boundingBox.min.x);
-
-        geometry.translate(xMid, 0, 0);
-
-        text = new THREE.Mesh(geometry, material);
-        scene.add(text);
-      }); //end load function
-
-      //document.body.appendChild(renderer.domElement);
-      // renderer.setSize(drawingSurface.innerWidth, drawingSurface.innerHeight);
-
-      var controls = new OrbitControls(camera, renderer.domElement);
-      controls.target.set(0, 0, 0);
-      controls.update();
-
-      // window.addEventListener("resize", onWindowResize, false);
-
-      // end init
-
-      function resizeCanvasToDisplaySize() {
-        const canvas = renderer.domElement;
-        // look up the size the canvas is being displayed
-        const width = canvas.clientWidth;
-        const height = canvas.clientHeight;
-
-        // adjust displayBuffer size to match
-        if (canvas.width !== width || canvas.height !== height) {
-          // you must pass false here or three.js sadly fights the browser
-          renderer.setSize(width, height, false);
-          camera.aspect = width / height;
-          camera.updateProjectionMatrix();
-
-          // update any render target sizes here
-        }
-      }
-
-      // function onWindowResize() {
-      //   camera.aspect = window.innerWidth / winow.innerHeight;
-      //   camera.updateProjectionMatrix();
-
-      //   renderer.setSize(drawingSurface.innerWidth, drawingSurface.innerHeight);
-      // }
-
-      function animate() {
-        resizeCanvasToDisplaySize();
-        // onWindowResize();
-        renderer.render(scene, camera);
-        requestAnimationFrame(animate);
-      }
-      requestAnimationFrame(animate);
-    </script>
   </body>
 </html>
