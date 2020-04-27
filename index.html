@@ -14,23 +14,34 @@
     <link rel="stylesheet" href="/styles/main.css" />
   </head>
   <body>
-    <nav class="dt w-100 border-box pb5 pa3 ph5-ns tracked">
+
+    <header class="">
+    <nav class="dt w-100 border-box pb5 pa3 ph4-ns tracked">
       <a class="link dtc v-mid black w-25" href="index.html" title="Home">
-        <h1>Tommy Tran</h1>
+        <h1 class="f3-ns">Tommy Tran</h1>
       </a>
       <div class="dtc v-mid w-75 tr">
         <a
-          class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"
+          class="link dim f6 f5-ns dib mr3 mr4-ns"
           href="about.html"
           title="About"
           >ABOUT</a
         >
       </div>
     </nav>
+  </header>
+  <main class="pv6 ph5">
 
-    <div class="container">
-      <ul class="list cf ph5-ns">
-        <li class="project-unit fl w-50-m w-50-ns ph3-ns ph3-l pb3 pb3-l">
+
+      <!-- <p class="f-headline b lh-solid oh measure mt0 mb5 nowrap ws-normal-ns overflow-hidden word-wrap">
+        A modular scale, like a musical scale, is a prearranged set of harmonious proportions.
+      </p> -->
+      <div class="mw9 center ph3-ns">
+        <h1 class="f-subheadline f2-m f-mt0 mb5 ws-normal-ns overflow-hidden helvetica ">digital designer/ web developer based in Los Angeles.</h1>
+
+      </div>
+      <ul class="list cf ph1-ns">
+        <li class="project-unit fl w-30-m w-30-ns ph3-ns ph3-l pb3 pb3-l">
           <div>
           <a href="CaseStudyLetterboxd.html" title="Letterboxd Case Study" class="project">
             <div class="item">
@@ -40,26 +51,32 @@
           </a>
         </div>
         </li>
-        <li class="project-unit fl w-50-m w-50-ns ph3-ns ph3-l pb3 pb3-l ">
+        <li class="project-unit fl w-30-m w-30-ns ph3-ns ph3-l pb3 pb3-l ">
             <a href="chorizoburrito.html" title="Chorizo Burrito (Blog)" class="project">
               <div><img class="preview dim" src="images/CB.png" /></div>
               <div class="title"><span>Chorizo Burrito (Blog)</span></div>
             </a>
           </li>
-        <li class="project-unit fl w-50-m w-50-ns ph3-ns ph3-l pb3 pb3-l ">
+        <!-- <li class="project-unit fl w-25-m w-25-ns ph3-ns ph3-l pb3 pb3-l ">
           <a href="groovers.html" title="Groovers" class="project">
             <div><img class="preview dim" src="images/groovers.png" /></div>
             <div class="title"><span>Groovers</span></div>
           </a>
-        </li>
+        </li> -->
 
-        <li class="project-unit fl w-50-m w-50-ns ph3-ns ph3-l pb3 pb3-l ">
+        <li class="project-unit fl w-30-m w-30-ns ph3-ns ph3-l pb3 pb3-l ">
           <a href="saiyanmode.html" title="Saiyan Mode (IG filter)" class="project">
             <div><img class="preview dim" src="images/saiyan.png" /></div>
             <div class="title"><span>Saiyan Mode (IG filter)</span></div>
           </a>
         </li>
-      </ul>
-    </div>
+      </ul> 
+  </main>
+  <canvas class="background"></canvas>
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"
+    ></script>
+    <script src="js/index.js"></script>
+
   </body>
 </html>
