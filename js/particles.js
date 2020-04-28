@@ -144,7 +144,7 @@ var Particles = (function (window, document) {
   Plugin.prototype._initializeEvents = function () {
     var _ = this;
 
-    _.listener = function () { _._resize(); }.bind(this);
+    _.listener = function () { _.pauseAnimation(); }.bind(this);
     window.addEventListener('resize', _.listener, false);
   };
 
