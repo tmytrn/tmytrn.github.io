@@ -1,9 +1,13 @@
-window.onload= function() {Particles.init({
-    selector: '.background',
-    color: '#33ff33',
+window.onload= function() { Particles.init({
+    selector: '.particle',
+    color: '#20215b',
     connectParticles: true,
-		maxParticles: 60,
-		speed: 0.4,
+		maxParticles: 45,
+		speed: 0.3,
     sizeVariations: 6,
   });
 };
+
+
+
+
