@@ -28,6 +28,7 @@ body {
 h1,
 h2,
 p {
+  font-weight: normal;
   z-index: 5;
   color: #20215b;
 }
