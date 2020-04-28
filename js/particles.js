@@ -122,7 +122,7 @@ var Particles = (function (window, document) {
     backingStoreRatio = _.context.webkitBackingStorePixelRatio || _.context.mozBackingStorePixelRatio || _.context.msBackingStorePixelRatio ||
       _.context.oBackingStorePixelRatio || _.context.backingStorePixelRatio || 1;
 
-    _.ratio = (devicePixelRatio / backingStoreRatio )*2;
+    _.ratio = (devicePixelRatio / backingStoreRatio )*4;
     _.element.width = (_.element.offsetParent) ? _.element.offsetParent.clientWidth * _.ratio : _.element.clientWidth * _.ratio;
 
     if (_.element.offsetParent && _.element.offsetParent.nodeName === 'BODY') {
@@ -133,7 +133,7 @@ var Particles = (function (window, document) {
     _.element.style.width = '100%';
     _.element.style.height = '100%';
 
-    // _.context.scale(_.ratio, _.ratio);
+    _.context.scale(_.ratio/4, _.ratio/4);
   };
 
   /**
