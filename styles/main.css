@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/a64ff11d2c24584c767f6257e880dc65?family=Helvetica);
+/* @import url(//db.onlinewebfonts.com/c/a64ff11d2c24584c767f6257e880dc65?family=Helvetica); */
 html {
   background: rgb(190, 191, 210);
   /* background: linear-gradient(145deg, rgba(190,191,210,1) 41%, rgba(254,217,186,0.9542191876750701) 100%); */
@@ -24,6 +24,13 @@ body {
 .bio {
   top: 50%;
 }
+.tmytrn {
+  text-decoration: none;
+}
+.tmytrn:hover .fade {
+  opacity: 1 !important;
+  text-decoration: none;
+}
 
 h1,
 h2,
@@ -36,13 +43,13 @@ p {
   color: #20215b;
 }
 .me {
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   width: 40%;
-  z-index: -1;
+  z-index: 1;
 }
 
 main {
