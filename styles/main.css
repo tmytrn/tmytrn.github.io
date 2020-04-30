@@ -37,7 +37,7 @@ body {
 h1,
 h2,
 p {
-  font-weight: medium;
+  font-weight: medium !important;
   color: #20215b;
 }
 
