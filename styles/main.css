@@ -1,8 +1,9 @@
 
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url('fonts/HelveticaNeue.ttf');
+  src: url('/fonts/HelveticaNeue.ttf');
 }
+
 html {
   background: rgb(190, 191, 210);
   /* background: linear-gradient(145deg, rgba(190,191,210,1) 41%, rgba(254,217,186,0.9542191876750701) 100%); */
@@ -23,9 +24,6 @@ body {
   width: 100vw;
   height: 100vh;
 }
-.bio {
-  top: 50%;
-}
 .tmytrn {
   text-decoration: none;
 }
@@ -33,19 +31,18 @@ body {
   opacity: 1 !important;
   text-decoration: none;
 }
-
+img {
+  width: 100%;
+}
 p {
-  font-weight: normal !important;
   color: #20215b;
 }
 .text {
   font-size: 3rem;
 }
-@media only screen and (max-width: 400px) {
-  .text {
-    font-size: 1.8rem;
 
-  }
+.head {
+  z-index: 1;
 }
 
 .color {
@@ -57,14 +54,11 @@ p {
   left: 50%;
   margin-top:-10rem;
   transform: translateX(-50%);
-  text-align: center;
-  z-index: -1;
-}
-@media only screen and (max-width: 400px) {
-  .me {
-    margin-top: -6rem;
 
-  }
+}
+
+.behind {
+  z-index: -1;
 }
 
 
@@ -79,3 +73,14 @@ main {
   bottom: 0px;
   left:0px;
 } */
+@media only screen and (max-width: 600px) {
+  .me {
+    margin-top: -6rem;
+
+  }
+  .text {
+    font-size: 1.9rem;
+
+  }
+
+}
