@@ -1,12 +1,14 @@
-/* @import url(//db.onlinewebfonts.com/c/a64ff11d2c24584c767f6257e880dc65?family=Helvetica); */
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url('fonts/HelveticaNeue-Medium.ttf');
+}
 html {
   background: rgb(190, 191, 210);
   /* background: linear-gradient(145deg, rgba(190,191,210,1) 41%, rgba(254,217,186,0.9542191876750701) 100%); */
 }
 body {
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: normal;
+  font-family: HelveticaNeue;
   letter-spacing: 0px;
   height: 100%;
 }
@@ -35,10 +37,10 @@ body {
 h1,
 h2,
 p {
-  font-weight: normal;
-  z-index: 5;
+  font-weight: medium;
   color: #20215b;
 }
+
 .color {
   color: #20215b;
 }
@@ -48,7 +50,6 @@ p {
   margin-top:-10rem;
   transform: translateX(-50%);
   text-align: center;
-  /* width: 50%; */
   z-index: -1;
 }
 
