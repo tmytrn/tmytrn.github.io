@@ -34,16 +34,24 @@ body {
   text-decoration: none;
 }
 
-h1,
-h2,
 p {
   font-weight: normal !important;
   color: #20215b;
+}
+.text {
+  font-size: 2.5rem;
+}
+@media only screen and (max-width: 400px) {
+  .text {
+    font-size: 1.8rem;
+
+  }
 }
 
 .color {
   color: #20215b;
 }
+
 .me {
   position: relative;
   left: 50%;
@@ -52,6 +60,13 @@ p {
   text-align: center;
   z-index: -1;
 }
+@media only screen and (max-width: 400px) {
+  .me {
+    margin-top: -6rem;
+
+  }
+}
+
 
 main {
   overflow: hidden;
