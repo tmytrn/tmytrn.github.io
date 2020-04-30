@@ -43,13 +43,13 @@ p {
   color: #20215b;
 }
 .me {
-
   position: relative;
   left: 50%;
+  margin-top:-10rem;
   transform: translateX(-50%);
   text-align: center;
-  width: 40%;
-  z-index: 1;
+  /* width: 50%; */
+  z-index: -1;
 }
 
 main {
