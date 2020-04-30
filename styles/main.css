@@ -39,7 +39,7 @@ p {
   color: #20215b;
 }
 .text {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 @media only screen and (max-width: 400px) {
   .text {
