@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/fonts/HelveticaNeue-Mediium.ttf");
+  }
+  html {
+    background: #fafafa;
+    /* background: linear-gradient(145deg, rgba(190,191,210,1) 41%, rgba(254,217,186,0.9542191876750701) 100%); */
+  }
+  body {
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    height: 100%;
+  }
+  .tight {
+    letter-spacing: -0.5px;
+  }
+  .particle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  .tmytrn {
+    text-decoration: none;
+  }
+  .tmytrn:hover .fade {
+    opacity: 1 !important;
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+  }
+  /* li::before {
+    content: "\2022";
+    color:#20215b;
+    display: inline-table;
+    width: 1rem;
+    margin-left: -1rem;
+  } */
+  p, li {
+    color: #555555;
+  }
+  h1 {
+    color:  #FE450D;
+  }
+  .head {
+    z-index: 1;
+  }
+  
+  .color {
+    color: #FE450D;
+  }
+  .bt {
+    color: #555555;
+  }
+  
+  .me {
+    position: relative;
+    left: 50%;
+    margin-top: -10rem;
+    transform: translateX(-50%);
+  }
+  
+  .behind {
+    z-index: -1;
+  }
+  
+  main {
+    overflow: hidden;
+  }
+  .fade {
+    opacity: 0.5;
+  }
+  
+  /* .footer {
+    bottom: 0px;
+    left:0px;
+  } */
+  @media only screen and (max-width: 600px) {
+    .me {
+      margin-top: -6rem;
+    }
+  }
+  .project {
+    margin-left:24px;
+  }
+  .project-wrapper {
+    margin-left: -24px;
+  }
+  .project-image-wrapper {
+    text-align: center;
+  }
+  .subtitle {
+    font-weight: 200;
+  }
+  .project-title {
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+  .project-description {
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+  .hifi-wrapper {
+    text-align: center;
+  }
+  .link:hover{
+    text-decoration: underline;
+  }

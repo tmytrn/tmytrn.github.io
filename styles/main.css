@@ -1,16 +1,20 @@
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("/fonts/HelveticaNeue.ttf");
+  src: url("/fonts/HelveticaNeue-Mediium.ttf");
 }
-
 html {
   background: rgb(190, 191, 210);
+  transition: background-color 0.5s ease;
   /* background: linear-gradient(145deg, rgba(190,191,210,1) 41%, rgba(254,217,186,0.9542191876750701) 100%); */
 }
 body {
+  background: rgb(190, 191, 210);
   font-family: "Helvetica Neue";
-  letter-spacing: -0.5px;
+  font-weight: 400;
   height: 100%;
+}
+.tight {
+  letter-spacing: -0.5px;
 }
 .particle {
   position: fixed;
@@ -33,7 +37,14 @@ body {
 img {
   width: 100%;
 }
-p {
+/* li::before {
+  content: "\2022";
+  color:#20215b;
+  display: inline-table;
+  width: 1rem;
+  margin-left: -1rem;
+} */
+p, h1, li {
   color: #20215b;
 }
 .head {
@@ -41,6 +52,9 @@ p {
 }
 
 .color {
+  color: #20215b;
+}
+.bt {
   color: #20215b;
 }
 
@@ -70,4 +84,30 @@ main {
   .me {
     margin-top: -6rem;
   }
+}
+.project {
+  margin-left:24px;
+}
+.project-wrapper {
+  margin-left: -24px;
+}
+.project-image-wrapper {
+  text-align: center;
+}
+.subtitle {
+  font-weight: 200;
+}
+.project-title {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.project-description {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.hifi-wrapper {
+  text-align: center;
+}
+.link:hover{
+  text-decoration: underline;
 }
