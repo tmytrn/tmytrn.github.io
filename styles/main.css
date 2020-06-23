@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("/fonts/HelveticaNeue-Mediium.ttf");
+  font-family:"Helvetica Neue";
+  src: url("/fonts/HelveticaNeue.ttf");
 }
 html {
   background: rgb(190, 191, 210);
