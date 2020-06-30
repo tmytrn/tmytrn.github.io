@@ -1,0 +1,92 @@
+.tight {
+  letter-spacing: -0.5px;
+}
+.tmytrn {
+  text-decoration: none;
+}
+.tmytrn:hover .fade {
+  opacity: 1 !important;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+body {
+  color: #20215b;
+}
+h1{
+  font-weight: 600;
+}
+.head {
+  z-index: 1;
+}
+
+.color {
+  color: #20215b;
+}
+.bt {
+  color: #20215b;
+}
+
+.me {
+  position: relative;
+  left: 50%;
+  margin-top: -10rem;
+  transform: translateX(-50%);
+}
+
+.behind {
+  z-index: -1;
+}
+.fade {
+  opacity: 0.5;
+}
+
+/* .footer {
+  bottom: 0px;
+  left:0px;
+} */
+.project {
+  margin-left:24px;
+}
+.project-wrapper {
+  margin-left: -24px;
+}
+.project-image-wrapper {
+  text-align: center;
+}
+.subtitle {
+  font-weight: 300;
+}
+.project-title {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.project-description {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.hifi-wrapper {
+  text-align: center;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.red {
+  color: #FE450D;
+}
+.iphone-wrapper {
+  height: 506px;
+  overflow: scroll;
+}
+.iphone img{
+  width: 75%;
+}
+@media only screen and (max-width: 600px) {
+  .me {
+    margin-top: -6rem;
+  }
+  .iphone-wrapper {
+    height: 600px;
+  }
+}

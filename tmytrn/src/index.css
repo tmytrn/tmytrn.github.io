@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family:"Helvetica Neue";
+  src: url("/fonts/HelveticaNeue.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family:"Helvetica Neue";
+  src: url("/fonts/HelveticaNeue-Medium.ttf");
+  font-weight: 600;
+
+}
+body {
+  background-color: #fafafa;
+  font-family: "Helvetica Neue";
+  font-weight: normal;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
