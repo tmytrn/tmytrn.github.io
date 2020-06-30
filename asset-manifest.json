@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.73107b56.chunk.css",
-    "main.js": "/static/js/main.32f8116f.chunk.js",
-    "main.js.map": "/static/js/main.32f8116f.chunk.js.map",
+    "main.js": "/static/js/main.ee030af0.chunk.js",
+    "main.js.map": "/static/js/main.ee030af0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dc340ee8.js",
     "runtime-main.js.map": "/static/js/runtime-main.dc340ee8.js.map",
     "static/css/2.3c03f26f.chunk.css": "/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.d1232c78.chunk.js": "/static/js/2.d1232c78.chunk.js",
-    "static/js/2.d1232c78.chunk.js.map": "/static/js/2.d1232c78.chunk.js.map",
+    "static/js/2.409105ed.chunk.js": "/static/js/2.409105ed.chunk.js",
+    "static/js/2.409105ed.chunk.js.map": "/static/js/2.409105ed.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.867e119b21f5e957ac93904ce396c7f0.js": "/precache-manifest.867e119b21f5e957ac93904ce396c7f0.js",
+    "precache-manifest.2bde44cad679116a85662aeda3e63bbc.js": "/precache-manifest.2bde44cad679116a85662aeda3e63bbc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.73107b56.chunk.css.map": "/static/css/main.73107b56.chunk.css.map",
-    "static/js/2.d1232c78.chunk.js.LICENSE.txt": "/static/js/2.d1232c78.chunk.js.LICENSE.txt",
+    "static/js/2.409105ed.chunk.js.LICENSE.txt": "/static/js/2.409105ed.chunk.js.LICENSE.txt",
     "static/media/AirbnbJournals.png": "/static/media/AirbnbJournals.68b9f2b3.png",
     "static/media/AirbnbJournals_Hero.png": "/static/media/AirbnbJournals_Hero.dfd69e99.png",
     "static/media/CB.png": "/static/media/CB.f1a0c267.png",
@@ -22,9 +22,9 @@
     "static/media/Effort_Impact.png": "/static/media/Effort_Impact.3c6c0418.png",
     "static/media/FilmReview.png": "/static/media/FilmReview.a8a6109a.png",
     "static/media/HomePage@2x.png": "/static/media/HomePage@2x.b3660a4b.png",
-    "static/media/Journal_1@2x.png": "/static/media/Journal_1@2x.91c8787f.png",
-    "static/media/Journal_Memento@2x.png": "/static/media/Journal_Memento@2x.dda82e50.png",
-    "static/media/Journals_Home@2x.png": "/static/media/Journals_Home@2x.da15b374.png",
+    "static/media/Journal_1.png": "/static/media/Journal_1.6630cdd0.png",
+    "static/media/Journal_Memento.png": "/static/media/Journal_Memento.9fcc624e.png",
+    "static/media/Journals_Home.png": "/static/media/Journals_Home.da15b374.png",
     "static/media/Luxe.png": "/static/media/Luxe.31845050.png",
     "static/media/Online_Experiences.png": "/static/media/Online_Experiences.c64dff8a.png",
     "static/media/PA_Logo_wide.jpg": "/static/media/PA_Logo_wide.206df8b9.jpg",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.dc340ee8.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.d1232c78.chunk.js",
+    "static/js/2.409105ed.chunk.js",
     "static/css/main.73107b56.chunk.css",
-    "static/js/main.32f8116f.chunk.js"
+    "static/js/main.ee030af0.chunk.js"
   ]
 }
